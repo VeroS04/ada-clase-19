@@ -1,0 +1,180 @@
+/* ejercicio uno */
+
+.contenido1 {
+    background-color: bisque;
+    font-size: 50px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 40%;
+    transition-duration: 5s;
+}
+.caja1 {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    position: relative;
+    top: 10px;
+    transition-property: border-radius,transform;
+    transition: 1s;
+}
+
+.caja-1 {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    position: relative;
+    top: 10px;
+}
+
+.contenido1:hover .caja1 {
+    left: 200px;
+    top: 200px;
+}
+
+/* ejercicio dos */
+
+.contenido2 {
+    background-color: bisque;
+    font-size: 50px;
+    padding-top: 0.1%;
+    padding-bottom: 1%;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 40%;
+    transition-duration: 5s;
+}
+.caja2 {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    position: relative;
+    top: 10px;
+    transition-property: border-radius,transform;
+    transition: 1s;
+}
+
+.caja-2 {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    position: relative;
+    top: 10px;
+}
+
+.contenido2:hover .caja2 {
+    position: absolute;
+    right: 200px;
+    top: -20px;
+}
+
+
+/* ejercicio tres */
+
+.contenido3 {
+    background-color: bisque;
+    font-size: 50px;
+    padding-top: 0.1%;
+    padding-bottom: 1%;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 40%;
+    transition-duration: 5s;
+}
+.caja3 {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    position: relative;
+    top: 10px;
+    transition-property: border-radius,transform;
+    transition: 1s;
+}
+
+.caja-3 {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    position: relative;
+    top: 10px;
+}
+
+.contenido3:hover .caja3 {
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+/* ejercicio cuatro */
+
+
+.division {
+    background-color: black;
+    padding: 0.2%;
+    width: 100%;
+}
+
+ .contenido4 {
+    background-color: bisque;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 38%;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 2%;
+}  
+ 
+.caja-4 {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    position: relative;
+    top: 10px;
+    transition-property: border-radius,transform;
+    transition: 1s;
+}
+
+.caja4 {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    position: relative;
+    transition-property: border-radius,transform;
+    transition-duration: 1s;
+}
+
+.contenido4:hover .caja-4 {
+    border-radius: 50%;
+    background-color: blueviolet;
+    transform: rotatey(380deg); 
+} 
+
+.contenido4:hover .caja4 {
+    left: 200px;
+    top: 200px;
+    border-radius: 50%;
+    background: rgb(79, 19, 92);
+    transform: rotate(180deg); 
+}
